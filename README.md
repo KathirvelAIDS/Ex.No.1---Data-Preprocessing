@@ -32,6 +32,8 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
+NAME:KATHIRVEL.A
+REG NO:212221230047
 ```
 import pandas as pd
 df=pd.read_csv("/content/Churn_Modelling.csv")
@@ -67,5 +69,5 @@ print(df1)
 ![image](https://user-images.githubusercontent.com/94911373/229443910-df57c6a2-6a92-480f-97d8-0483aa66ccfb.png)
 
 
-## result
+## Result:
 Thus the above program for standardizing the given data was implemented successfully
