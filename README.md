@@ -32,6 +32,7 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
+```
 import pandas as pd
 df=pd.read_csv("/content/Churn_Modelling.csv")
 df.head()
@@ -56,10 +57,10 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 df1 = sc.fit_transform(df)
 print(df1)
+```
 
 ## OUTPUT:
 
-![image](https://user-images.githubusercontent.com/94911373/229443655-94b90874-6798-49e2-b7f7-4f55287aa719.png)
 ![image](https://user-images.githubusercontent.com/94911373/229443607-874ae257-dd5a-4b8e-a8e0-31dbffa40f78.png)
 ![image](https://user-images.githubusercontent.com/94911373/229443835-4d90b895-98e6-446c-b72d-d28ac041abf5.png)
 ![image](https://user-images.githubusercontent.com/94911373/229443874-3089c46f-0e22-4b65-8433-ace47d9a4bb2.png)
