@@ -32,6 +32,7 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
+```
 NAME:KATHIRVEL.A
 REG NO:212221230047
 ```
