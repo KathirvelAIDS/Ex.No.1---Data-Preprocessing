@@ -36,6 +36,9 @@ Splitting the data into test and train
 NAME:KATHIRVEL.A
 REG NO:212221230047
 ```
+
+
+```
 import pandas as pd
 df=pd.read_csv("/content/Churn_Modelling.csv")
 df.head()
